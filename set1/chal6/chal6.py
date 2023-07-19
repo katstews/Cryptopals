@@ -95,5 +95,12 @@ for i, x in enumerate(binarystring):
     final.append(chr(val))
 
 ##################### print the flags ##########################
-print("The key:", final_damn_flag, "\n")
-print(''.join(final))
+# print("The key:", final_damn_flag, "\n")
+# print(''.join(final))
+final_damn_flag = "repeating XOR key: \"" + final_damn_flag + "\""
+
+with open('flag.txt','w') as file:
+    file.write(final_damn_flag)
+    file.write('\n')
+    file.write('\n')
+    file.write(''.join(final))
