@@ -58,6 +58,7 @@ for x in range(24):
 
 flag = []
 
+#transpose blocks into corresponding indexes
 for y in range(29):
     val = []
     for x in range(len(byte_block)):
