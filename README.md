@@ -20,3 +20,9 @@ Once were done 'transposing' the ciphertext and gathered all the respective inde
 To represent this problem:
 > s e c r e t a t t a c k <br>
 > i c e i c e i c e i c e
+> **ciphertext**: 26 6 6 27 6 17 8 23 17 8 0 14
+
+You XOR them togther, now say the we guess the keysize is 3. Ok lets make the complicated list, it would something like this:
+> transposed_block = [[26,27,8,8], [6,6,23,0], ... ]]
+
+Ok so I got lazy and didn't want to decode the decimal, but you get the point? You put together all the indexes of the cipher text that should share the same key, I gathered all the ciphertext that has been XOR'd w/ 'i' and so on. Then you just xor all the ciphertext that share the same indexes together and use frequncy analysis to find the one with most english words. There will be gibberish. The XOR will be using all printable characters. A normal standard single char xor. Either way you'll find the key and then you just use that key to decode the huge file. 
