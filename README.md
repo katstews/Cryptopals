@@ -18,5 +18,5 @@ Once were done 'transposing' the ciphertext and gathered all the respective inde
 > **key**: ice <br>
 
 To represent this problem:
-> s e c r e t a t t a c k
+> s e c r e t a t t a c k <br>
 > i c e i c e i c e i c e
