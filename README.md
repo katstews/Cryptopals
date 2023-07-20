@@ -19,7 +19,7 @@ Once were done 'transposing' the ciphertext and gathered all the respective inde
 
 To represent this problem:
 > s e c r e t a t t a c k <br>
-> i c e i c e i c e i c e
+> i c e i c e i c e i c e <br>
 > **ciphertext**: 26 6 6 27 6 17 8 23 17 8 0 14
 
 You XOR them togther, now say the we guess the keysize is 3. Ok lets make the complicated list, it would something like this:
