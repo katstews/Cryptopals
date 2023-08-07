@@ -31,4 +31,4 @@ for x in range(0, len(content), 16):
     blocks += val
     previous_cipher = chunks
 
-print(blocks)
+print(blocks.decode('utf-8'))
